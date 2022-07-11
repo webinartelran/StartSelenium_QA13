@@ -3,4 +3,10 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="11" />
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="StartSelenium_QA13.main" options="--add-modules java.base" />
+      <module name="StartSelenium_QA13.test" options="--add-modules java.base" />
+    </option>
+  </component>
 </project>
